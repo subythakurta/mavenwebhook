@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mkyong</groupId>
 	<artifactId>CounterWebApp</artifactId>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>CounterWebApp Maven Webapp</name>
 	<url>http://maven.apache.org</url>
@@ -90,7 +90,7 @@
 					<target>${jdk.version}</target>
 				</configuration>
 			</plugin>
-			<!-- For Tomcat -->
+			<!-- For Tomcat added comments -->
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
